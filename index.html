@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Rock - Papper - Scissors</h1>
+    <div class="btns">
+        <div class="icon">
+            <img src="rock.png" alt="" onclick="rps('rock')">
+            <p>Rock</p>
+        </div>
+        <div class="icon">
+            <img src="papper.png" alt="" onclick="rps('papper')">
+            <p>Papper</p>
+        </div>
+        <div class="icon">
+            <img src="scissors.png" alt="" onclick="rps('scissor')">
+            <p>Scissors</p>
+        </div>
+    </div>
+    <div>
+        <p id="uo">User selected : </p>
+        <p id="co">Computer selected :</p>
+    </div>
+    <h1 id="result"></h1>
+    <div>
+        <p>Computer score :</p>
+        <p>User score :</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
